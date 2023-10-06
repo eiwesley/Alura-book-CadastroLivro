@@ -1,7 +1,7 @@
 const elementoParaInserirLivros = document.getElementById('livros');
 
 function exibirOsLivrosNaTela(listaDeLivros){
-    elementoParaInserirLivros.innerHTML = ''
+    elementoParaInserirLivros.innerHTML = '' //reseta o painel de itens antes de inseri-los
     listaDeLivros.forEach(livro => {
         elementoParaInserirLivros.innerHTML +=  `
         <div class="livro">
